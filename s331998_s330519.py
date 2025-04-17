@@ -16,7 +16,8 @@ def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
 
 def f2(x: np.ndarray) -> np.ndarray:
-    return (((x[0] / (x[1] / (x[2] + x[2]))) - ((np.sin(x[1]) + np.cos(x[2])) + np.tan((x[2] - x[2])))) + np.log(np.exp((np.sin(x[1]) / 4.62))))
+    # return (((x[0] / (x[1] / (x[2] + x[2]))) - ((np.sin(x[1]) + np.cos(x[2])) + np.tan((x[2] - x[2])))) + np.log(np.exp((np.sin(x[1]) / 4.62))))
+    return np.multiply(np.multiply(73.05, np.multiply(np.abs(23.51), 7.13)), np.multiply(x[0], 93.4))
 
 def f3(x: np.ndarray) -> np.ndarray:
     return (np.cos(2.24) + ((x[1] * x[1]) * (x[1] * np.cos(2.24))))
