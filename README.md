@@ -13,23 +13,36 @@ with minimal error, without assuming any fixed parametric form in advance.
 
 ## Solution Approach
 
-All of the core code and experiments live in the `project.ipynb`.  In brief:
+All of the core code and experiments live in the `project.ipynb`. This notebook implements a genetic programming approach for symbolic regression, aiming to find mathematical expressions that best fit given datasets. The main steps and functions are:
 
-1. **Data loading and preprocessing**  
-   - Sample synthetic datasets with known ground‑truth functions.  
-   - Normalize and split into training/test sets.
+### 1. **Initialization**
+- **Population Generation:**  
+  The algorithm starts by generating a population of random expression trees using `generate_random_tree`. Each tree represents a candidate mathematical expression.
 
-2. **Symbolic regression via evolutionary search**  
-   - Define a grammar of mathematical operators (e.g. `+`, `-`, `*`, `/`, `sin`, `cos`, `exp`, `abs`, …).  
-   - Use a genetic programming engine to evolve candidate expression trees:  
-     - Initialize a population of random trees  
-     - Iteratively apply selection, crossover and mutation  
-     - Evaluate fitness by mean squared error (MSE) on training data  
+### 2. **Evaluation**
+- **Fitness Calculation:**  
+  Each individual is evaluated on the dataset using the `fitness` function, which computes the mean squared error (MSE) between the predicted and true values.
 
-3. **Post‑processing & evaluation**  
-   - Simplify discovered expressions where possible.  
-   - Compute MSE on held‑out test data.  
-   - Compare with baseline functions $f_0, f_1, \dots, f_8$.
+### 3. **Selection**
+- **Parent Selection:**  
+  Parents for the next generation are chosen using one of several strategies: tournament, rank, or fitness-proportional selection, implemented in `parent_selection` and its helper functions.
+
+### 4. **Genetic Operators**
+- **Crossover:**  
+  The `crossover` function swaps random subtrees between two parent trees to create offspring.
+- **Mutation:**  
+  Two types of mutation are implemented:
+  - `subtree_mutation`: Replaces a subtree with a new random subtree.
+  - `point_mutation`: Alters a node’s content or its children.
+  - The `mutation` function randomly applies one of these mutations.
+
+### 5. **Elitism**
+- **Best Individuals Preservation:**  
+  The best-performing individuals (elite) are carried over to the next generation to ensure that good solutions are not lost.
+
+### 6. **Termination**
+- **Stopping Criteria:**  
+  The process repeats for a fixed number of generations or until a solution with sufficiently low error is found.
 
 
 ## Project Structure
