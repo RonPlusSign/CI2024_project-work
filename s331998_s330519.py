@@ -40,8 +40,7 @@ def f7(x: np.ndarray) -> np.ndarray:
 
 
 def f8(x: np.ndarray) -> np.ndarray: 
-    return (((-49.684 * np.exp(np.abs(x[5]))) + ((np.abs(np.exp(x[5])) + np.log(0.578)) * (np.exp(4.718) + 15.38))) / np.cos(np.cos(np.abs(np.exp((x[5] / np.exp(x[5])))))))
-
+    return (((x[5] * (21.67 * (np.exp(np.abs(x[5])) + (-23.543 / x[5])))) - (np.exp(x[4]) * np.abs(x[4]))) - (np.exp(x[4]) / np.cos(-30.641)))
 
 
 # Compute the MSE of the functions
