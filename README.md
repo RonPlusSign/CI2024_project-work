@@ -15,19 +15,13 @@ with minimal error, without assuming any fixed parametric form in advance.
 
 All of the core code and experiments live in the `project.ipynb`. This notebook implements a genetic programming approach for symbolic regression, aiming to find mathematical expressions that best fit given datasets. The main steps and functions are:
 
-### 1. **Initialization**
-- **Population Generation:**  
-  The algorithm starts by generating a population of random expression trees using `generate_random_tree`. Each tree represents a candidate mathematical expression.
+1. **Initialization**: The algorithm starts by generating a population of random expression trees using `generate_random_tree`. Each tree represents a candidate mathematical expression.
 
-### 2. **Evaluation**
-- **Fitness Calculation:**  
-  Each individual is evaluated on the dataset using the `fitness` function, which computes the mean squared error (MSE) between the predicted and true values.
+2. **Evaluation**: Each individual is evaluated on the dataset using the `fitness` function, which computes the mean squared error (MSE) between the predicted and true values.
 
-### 3. **Selection**
-- **Parent Selection:**  
-  Parents for the next generation are chosen using one of several strategies: tournament, rank, or fitness-proportional selection, implemented in `parent_selection` and its helper functions.
+3. **Selection**: Parents for the next generation are chosen using one of several strategies: tournament, rank, or fitness-proportional selection, implemented in `parent_selection` and its helper functions.
 
-### 4. **Genetic Operators**
+4. **Genetic Operators**:
 - **Crossover:**  
   The `crossover` function swaps random subtrees between two parent trees to create offspring.
 - **Mutation:**  
@@ -36,20 +30,16 @@ All of the core code and experiments live in the `project.ipynb`. This notebook 
   - `point_mutation`: Alters a node’s content or its children.
   - The `mutation` function randomly applies one of these mutations.
 
-### 5. **Elitism**
-- **Best Individuals Preservation:**  
-  The best-performing individuals (elite) are carried over to the next generation to ensure that good solutions are not lost.
+5. **Elitism**: The best-performing individuals (elite) are carried over to the next generation to ensure that good solutions are not lost.
 
-### 6. **Termination**
-- **Stopping Criteria:**  
-  The process repeats for a fixed number of generations or until a solution with sufficiently low error is found.
+6. **Termination**: The process repeats for a fixed number of generations or until a solution with sufficiently low error is found.
 
 
 ## Project Structure
 
 ```
 CI2024_project-work/
-├── data/ # raw datasets
+├── data/ # datasets
 ├── plots/ # predicted vs real plots
 ├── project.ipynb # core symbolic regression notebook
 ├── s331998.py # solution functions
