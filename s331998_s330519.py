@@ -21,9 +21,8 @@ def f2(x: np.ndarray) -> np.ndarray:
     #return 1_000_000 * np.add(np.add(np.divide(np.add(x[2], np.add(np.add(x[1], x[1]), np.add(x[2], np.exp(x[0])))), np.exp(np.abs(x[0]))), x[0]), np.sin(np.multiply(np.sin(np.cos(np.cos(-4.82))), x[0])))
     # return np.power(np.exp(np.log(np.subtract(np.subtract(26.87, x[0]), np.subtract(x[1], np.sin(x[1]))))), x[0])
     # return 56465.10655809015 + 5441856.124013525 * (np.sin(np.sin((np.tan(np.abs(np.sin(np.sin(np.sin((np.cos(np.sin(np.sin(0.422))) + (0.414 * np.sin((np.cos((x[0] - (np.exp(x[2]) ** np.log(np.sin(0.085))))) - x[0]))))))))) * (x[0] * np.cos(np.exp(((x[2] * (0.596 ** x[0])) * (np.tan(-0.018) * np.sin(x[0]))))))))))
-    # return 56465.10655809015 + 54418.561240135256 * (((np.tanh(66.643) - (-78.956 * np.arcsin(np.tanh((((x[1] + x[2]) + (x[0] + (x[0] + x[0]))) - x[0]))))) - ((x[2] + (x[2] + (x[0] + x[1]))) * np.abs(((x[1] + x[0]) * np.arcsin(np.tanh(x[0]))))))) # TODO: this solution has good MSE, but generates a warning
-    return 76430.20544814717 * ((((((((16.107 + np.sin(np.abs(x[0]))) + np.sin(np.abs(x[0]))) + (x[1] / x[0])) + (x[2] / ((x[0] - np.sin(x[0])) - np.abs(-6.335)))) + ((x[2] / x[0]) - (x[2] * x[1]))) + np.sin((x[1] / np.exp(np.sin(x[0]))))) * x[0]))
-
+    # return 76430.20544814717 * ((((((((16.107 + np.sin(np.abs(x[0]))) + np.sin(np.abs(x[0]))) + (x[1] / x[0])) + (x[2] / ((x[0] - np.sin(x[0])) - np.abs(-6.335)))) + ((x[2] / x[0]) - (x[2] * x[1]))) + np.sin((x[1] / np.exp(np.sin(x[0]))))) * x[0]))
+    return 56465.10655809015 + 54418.561240135256 * (((np.tanh(66.643) - (-78.956 * np.arcsin(np.tanh((((x[1] + x[2]) + (x[0] + (x[0] + x[0]))) - x[0]))))) - ((x[2] + (x[2] + (x[0] + x[1]))) * np.abs(((x[1] + x[0]) * np.arcsin(np.tanh(x[0])))))))
 
 
 def f3(x: np.ndarray) -> np.ndarray:
