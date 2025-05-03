@@ -1,15 +1,11 @@
 # CI2024 Project – Symbolic Regression
 
-Final project for the Computational Intelligence course @ Politecnico di Torino
+Final project for the Computational Intelligence course @ Politecnico di Torino. This project was entirely developed in collaboration with my colleague [Giorgia Modi](https://github.com/GiorgiaModi).
 
 ## Problem Statement
 
 **Symbolic regression** is the task of discovering a mathematical expression that best fits a given dataset.  
-Given samples of inputs $x \in \mathbb{R}^n$ and corresponding outputs $y \in \mathbb{R}$, the goal is to automatically find an analytic function  
-$$
-f(x)\quad\text{such that}\quad f(x_i)\approx y_i
-$$  
-with minimal error, without assuming any fixed parametric form in advance.
+Given samples of inputs $x \in \mathbb{R}^n$ and corresponding outputs $y \in \mathbb{R}$, the goal is to automatically find an analytic function $f(x)$ such that $f(x_i)\approx y_i$ with minimal error, without assuming any fixed parametric form in advance.
 
 ## Solution Approach
 
