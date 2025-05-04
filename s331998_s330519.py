@@ -40,8 +40,7 @@ def f7(x: np.ndarray) -> np.ndarray:
 
 
 def f8(x: np.ndarray) -> np.ndarray: 
-    return (((x[5] * (21.67 * (np.exp(np.abs(x[5])) + (-23.543 / x[5])))) - (np.exp(x[4]) * np.abs(x[4]))) - (np.exp(x[4]) / np.cos(-30.641)))
-
+    return ((np.exp(x[3]) - (((43.635 - ((np.cos(x[1]) - (x[4] + x[4])) * (x[3] - ((x[3] * x[4]) + x[4])))) + (((np.abs(np.abs(33.294)) - ((np.sin(x[3]) - (x[3] + x[4])) * (-1.663 - (x[4] + np.abs(x[3]))))) + (np.abs((np.abs(np.abs(33.294)) - ((np.sin(x[3]) - (x[4] + x[4])) * (x[4] - (x[4] + x[4]))))) - ((-1.663 - (x[4] + x[4])) * (np.cos(x[4]) - x[4])))) - ((np.exp(np.cos(-1.663)) - (x[4] + x[4])) * ((np.sin(x[3]) - (x[4] + x[4])) - x[4])))) - (-34.125 + -39.228))) + (np.abs(-22.214) * ((((np.abs(np.abs(33.294)) - ((np.exp(-1.663) - (x[4] + x[4])) * (np.cos(-1.663) - x[4]))) + -22.214) * np.exp(np.exp((np.exp((np.abs(19.532) - ((np.exp(-1.663) - (x[4] + x[4])) * (np.cos(-45.964) - x[4])))) * np.tan((np.abs(-21.878) + np.tan((np.cos(29.011) + np.cos(45.233))))))))) + (np.exp(np.abs(x[5])) * x[5]))))
 
 # Compute the MSE of the functions
 if __name__ == "__main__":
