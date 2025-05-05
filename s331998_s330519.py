@@ -20,11 +20,11 @@ def f2(x: np.ndarray) -> np.ndarray:
 
 
 def f3(x: np.ndarray) -> np.ndarray:
-    return (((((((x[0] * x[0]) - x[2]) - x[2]) - (x[1] * np.abs(((x[1] * x[1]) + (x[2] / (x[1] + x[1])))))) + np.abs((x[0] * x[0]))) - -3.547) - x[2])
+    return ((((x[0] * x[0]) + (x[0] * x[0])) + 4) - (((x[2] * 14) / 4) + (x[1] * (x[1] * x[1]))))
 
 
 def f4(x: np.ndarray) -> np.ndarray: 
-    return (np.cos((np.cos(x[1]) - (np.exp(((((x[0] * 29.294) - (-40.218 - 29.294)) / x[0]) / ((x[0] + (-40.218 - x[1])) * -47.89))) ** x[0]))) * np.abs(np.exp(np.exp(np.cos(np.sin(np.cos(np.sin(np.cos(x[1])))))))))
+    return (np.tan((((x[0] / -7.911) * np.cos(-13.373)) - np.tan(np.exp(-5.089)))) + (((np.cos(x[1]) + np.cos(-13.44)) * 7) + np.tan(-4.021)))
 
 
 def f5(x: np.ndarray) -> np.ndarray: 
