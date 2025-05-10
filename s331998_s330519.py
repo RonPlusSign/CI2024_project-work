@@ -35,7 +35,7 @@ def f6(x: np.ndarray) -> np.ndarray:
     return ((x[1] + x[1]) - (x[0] + ((x[0] / (np.cos(np.tan(-3.547)) - np.tan(np.abs(-20.187)))) - (x[1] / (np.cos((-12.357 + np.abs(np.tan(20.446)))) - np.tan(np.abs(np.tan(20.446))))))))
 
 
-def f7(x: np.ndarray) -> np.ndarray: 
+def f7(x: np.ndarray) -> np.ndarray:
     return (np.abs((np.tan(np.exp(np.cos(-5.523))) * np.exp((np.tan(np.cos(((x[1] - x[0]) * -4.419))) + (x[0] * x[1]))))) - (x[1] * x[0]))
 
 
