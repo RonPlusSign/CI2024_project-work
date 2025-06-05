@@ -16,7 +16,8 @@ def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
 
 def f2(x: np.ndarray) -> np.ndarray:
-    return 56465.10655809015 + 54418.561240135256 * (((np.tanh(66.643) - (-78.956 * np.arcsin(np.tanh((((x[1] + x[2]) + (x[0] + (x[0] + x[0]))) - x[0]))))) - ((x[2] + (x[2] + (x[0] + x[1]))) * np.abs(((x[1] + x[0]) * np.arcsin(np.tanh(x[0])))))))
+    return (((((17.976 + (13.556 + 98.991)) + ((34.785 + np.cos(x[2])) - (x[0] * (x[0] + x[0])))) * (((7.68 + np.cos(x[2])) + (x[2] + 98.991)) + (((x[0] * x[2]) - (x[0] * x[1])) - (x[0] * (x[1] + x[0]))))) * (((((x[1] * x[2]) - np.exp(x[2])) + (98.991 + 84.959)) + ((90.002 / x[0]) * (x[1] + x[2]))) + ((((11.47 * x[2]) + (x[1] + x[0])) + ((x[1] + x[0]) + (x[1] + x[0]))) * (((x[0] + x[0]) / (x[0] * 5)) - (x[1] + x[0]))))) * ((np.tanh(((x[0] - (x[0] - x[1])) + 6)) * x[0]) / (((np.exp(np.sin(x[2])) + np.abs((x[1] + x[0]))) + (((x[0] - x[1]) + np.exp(x[1])) - np.tanh((x[0] / x[2])))) ** ((((x[2] + x[2]) + (x[1] + x[0])) * x[2]) / (((x[2] - 34.785) + (x[2] + 350)) + (np.abs(x[0]) * (x[0] * x[1])))))))
+
 
 
 def f3(x: np.ndarray) -> np.ndarray:
@@ -36,7 +37,7 @@ def f6(x: np.ndarray) -> np.ndarray:
 
 
 def f7(x: np.ndarray) -> np.ndarray:
-    return (np.abs((np.tan(np.exp(np.cos(-5.523))) * np.exp((np.tan(np.cos(((x[1] - x[0]) * -4.419))) + (x[0] * x[1]))))) - (x[1] * x[0]))
+    return (((((x[1] + ((10 / 92.147) + np.sin(x[1]))) + (x[1] / (np.tanh(x[0]) / x[1]))) + (np.sin((x[1] - (x[0] - x[1]))) + (np.sin(x[0]) + (np.sin(x[0]) + (x[1] + x[1]))))) * (x[0] / np.cos(np.cos((x[1] - x[0]))))) + np.exp(((2 + ((x[0] * x[1]) + ((9 - x[0]) / (20.038 + x[0])))) * np.cos(((200 / (24.951 - 60.469)) * np.tanh((x[0] - x[1])))))))
 
 
 def f8(x: np.ndarray) -> np.ndarray: 
