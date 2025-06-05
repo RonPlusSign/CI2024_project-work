@@ -7,8 +7,10 @@ import numpy as np
 # All numpy's mathematical functions can be used in formulas
 # see: https://numpy.org/doc/stable/reference/routines.math.html
 
+
 def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
+
 
 def f2(x: np.ndarray) -> np.ndarray:
     return (((((17.976 + (13.556 + 98.991)) + ((34.785 + np.cos(x[2])) - (x[0] * (x[0] + x[0])))) * (((7.68 + np.cos(x[2])) + (x[2] + 98.991)) + (((x[0] * x[2]) - (x[0] * x[1])) - (x[0] * (x[1] + x[0]))))) * (((((x[1] * x[2]) - np.exp(x[2])) + (98.991 + 84.959)) + ((90.002 / x[0]) * (x[1] + x[2]))) + ((((11.47 * x[2]) + (x[1] + x[0])) + ((x[1] + x[0]) + (x[1] + x[0]))) * (((x[0] + x[0]) / (x[0] * 5)) - (x[1] + x[0]))))) * ((np.tanh(((x[0] - (x[0] - x[1])) + 6)) * x[0]) / (((np.exp(np.sin(x[2])) + np.abs((x[1] + x[0]))) + (((x[0] - x[1]) + np.exp(x[1])) - np.tanh((x[0] / x[2])))) ** ((((x[2] + x[2]) + (x[1] + x[0])) * x[2]) / (((x[2] - 34.785) + (x[2] + 350)) + (np.abs(x[0]) * (x[0] * x[1])))))))
